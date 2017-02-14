@@ -1,0 +1,15 @@
+1. Create Model
+
+2. Create Database Logic
+2.1 Add Model to DbContext
+2.2 Create interface
+
+3. Create business logic
+3.1 Create interface
+
+
+
+
+Dependencies:
+- Entity Framework
+- Autofac
