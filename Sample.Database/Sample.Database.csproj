@@ -61,7 +61,7 @@
     <Compile Include="Repositories\ExampleFirstRepository.cs" />
     <Compile Include="Repositories\Interfaces\Base\IBaseRepository.cs" />
     <Compile Include="Repositories\Interfaces\IExampleFirstRepository.cs" />
-    <Compile Include="Infrastructure\IDatabaseContext.cs" />
+    <Compile Include="Infrastructure\Interfaces\IDatabaseContext.cs" />
     <Compile Include="Models\Base\BaseModel.cs" />
     <Compile Include="Models\ExampleFirst.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
