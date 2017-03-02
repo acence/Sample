@@ -11,8 +11,8 @@
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Sample", action = "Index", id = UrlParameter.Optional }
+                url: "{*pathInfo}",
+                defaults: new { controller = "Post", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

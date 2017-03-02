@@ -13,10 +13,10 @@
             var builder = new ContainerBuilder();
             Logic.Configuration.DependencyConfig.RegisterDependencies(builder);
             
-            builder.RegisterControllers(Assembly.GetExecutingAssembly());
             builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly()).AsImplementedInterfaces();
+			builder.RegisterControllers(Assembly.GetExecutingAssembly());
 
-            var container = builder.Build();
+			var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }
     }

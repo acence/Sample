@@ -6,9 +6,9 @@
     using Models;
     using System;
 
-    public class ExampleFirstRepository : BaseRepository<ExampleFirst>, IExampleFirstRepository
+    public class PostRepository : BaseRepository<Post>, IPostRepository
     {
-        public ExampleFirstRepository(IDatabaseContext context) : base(context)
+        public PostRepository(IDatabaseContext context) : base(context)
         {
         }
     }

@@ -3,7 +3,7 @@
     using Base;
     using System;
 
-    public class ExampleFirstDto: BaseDto
+    public class PostDto: BaseDto
     {
         public Int32 Id { get; set; }
         public String Name { get; set; }

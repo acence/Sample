@@ -56,14 +56,14 @@
     <Compile Include="Configuration\DependencyConfig.cs" />
     <Compile Include="Infrastructure\DatabaseContext.cs" />
     <Compile Include="Infrastructure\Configuration\DatabaseContextConfiguration.cs" />
-    <Compile Include="Mappings\ExampleFirstMapping.cs" />
+    <Compile Include="Mappings\PostMapping.cs" />
     <Compile Include="Repositories\Base\BaseRepository.cs" />
-    <Compile Include="Repositories\ExampleFirstRepository.cs" />
+    <Compile Include="Repositories\PostRepository.cs" />
     <Compile Include="Repositories\Interfaces\Base\IBaseRepository.cs" />
-    <Compile Include="Repositories\Interfaces\IExampleFirstRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPostRepository.cs" />
     <Compile Include="Infrastructure\Interfaces\IDatabaseContext.cs" />
     <Compile Include="Models\Base\BaseModel.cs" />
-    <Compile Include="Models\ExampleFirst.cs" />
+    <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@
         {
             var configuration = new MapperConfiguration(x =>
             {
-                x.CreateMap<ExampleFirst, ExampleFirstDto>().ReverseMap();
+                x.CreateMap<Post, PostDto>().ReverseMap();
             });
 
             return configuration;

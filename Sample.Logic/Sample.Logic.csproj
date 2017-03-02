@@ -61,11 +61,11 @@
     <Compile Include="Base\Interfaces\IBaseLogic.cs" />
     <Compile Include="Configuration\AutoMapperConfig.cs" />
     <Compile Include="Configuration\DependencyConfig.cs" />
-    <Compile Include="Interfaces\IExampleFirstLogic.cs" />
+    <Compile Include="Interfaces\IPostLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ExampleFirstLogic.cs" />
+    <Compile Include="PostLogic.cs" />
     <Compile Include="TransferModels\Base\BaseDto.cs" />
-    <Compile Include="TransferModels\ExampleFirstDto.cs" />
+    <Compile Include="TransferModels\PostDto.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sample.Database\Sample.Database.csproj">
