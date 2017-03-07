@@ -6,7 +6,7 @@ using System.Web.Optimization;
 
 namespace Sample.Web.Configuration
 {
-	public class BundleConfig
+	public static class BundleConfig
 	{
 		public static void RegisterBundles(BundleCollection bundles)
 		{

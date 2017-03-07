@@ -20,6 +20,7 @@ namespace Sample.Web
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+			FilterConfig.RegisterFilters(GlobalFilters.Filters);
             DependencyConfig.RegisterDependencies();
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 

@@ -1,6 +1,6 @@
 ﻿namespace Sample.Web.Configuration
 {
-    public class AutoMapperConfig
+    public static class AutoMapperConfig
     {
         public static void ConfigureMappings()
         {

@@ -1,6 +1,8 @@
-﻿namespace Sample.Web.Infrastructure.Controllers
+﻿using Sample.Web.Infrastructure.Attributes;
+using System.Web.Mvc;
+
+namespace Sample.Web.Infrastructure.Controllers
 {
-    using System.Web.Mvc;
     public class BaseController : Controller
     {
     }

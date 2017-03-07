@@ -6,7 +6,7 @@
     using System.Reflection;
     using System.Web.Mvc;
 
-    public class DependencyConfig
+    public static class DependencyConfig
     {
         public static void RegisterDependencies()
         {
